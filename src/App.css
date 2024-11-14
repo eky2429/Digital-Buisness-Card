@@ -1,0 +1,23 @@
+#root {
+  text-align: center;
+}
+
+nav {
+  background-color: aqua;
+  margin: 0px;
+  padding: 10px;
+}
+
+footer {
+  background-color: turquoise;
+}
+
+li > a {
+  margin: 50px auto;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 30px;
+  border: 2px solid black;
+  border-radius: 20px;
+}

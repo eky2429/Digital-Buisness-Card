@@ -1,0 +1,17 @@
+.profile-pic {
+  border: 5px solid black;
+  border-radius: 50%;
+  width: 30%;
+}
+
+ul {
+  list-style: none;
+}
+
+.icon {
+  width: 30px;
+}
+
+li {
+  gap: 10px;
+}
