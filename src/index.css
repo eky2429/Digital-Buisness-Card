@@ -4,6 +4,10 @@
   width: 30%;
 }
 
+body {
+  margin: 0px;
+}
+
 ul {
   list-style: none;
 }

@@ -22,15 +22,15 @@ function App() {
         <h3>Aspiring Software Engineer</h3>
         <h3>3rd year student at UIC studying Computer Science</h3>
       </nav>
-      <ul>
-        <li><a href = "tel:773-837-5914"><img className = "icon" src = {phoneIcon} alt = "Phone number"/>773-837-5914</a></li>
-        <li><a href = "mailto:eky2429@gmail.com"><img className = "icon" src = {emailIcon} alt = "Email"/>Email</a></li>
-        <li><a href = "https://ethan-ky-site.onrender.com/"><img className = "icon" src = {netIcon} alt = "Official Site"/>Website</a></li>
-        <li><a href = "https://www.google.com/search?q=Illinois"><img className = "icon"src = {locationIcon} alt = "Location"/>Illinois</a></li>
+      <div className='buttons'>
+        <a href = "tel:773-837-5914"><img className = "icon" src = {phoneIcon} alt = "Phone number"/>773-837-5914</a>
+        <a href = "mailto:eky2429@gmail.com"><img className = "icon" src = {emailIcon} alt = "Email"/>Email</a>
+        <a href = "https://ethan-ky-site.onrender.com/"><img className = "icon" src = {netIcon} alt = "Official Site"/>Website</a>
+        <a href = "https://www.google.com/search?q=Illinois"><img className = "icon"src = {locationIcon} alt = "Location"/>Illinois</a>
 
-        <li><a href = "https://www.linkedin.com/in/ethan-ky2429"><img className = "icon" src = {linkedInIcon} alt = "LinkedIn"/>LinkedIn</a></li>
-        <li><a href = "https://github.com/eky2429"><img className = "icon" src = {githubIcon} alt = "GitHub"/> Github</a></li>
-      </ul>
+        <a href = "https://www.linkedin.com/in/ethan-ky2429"><img className = "icon" src = {linkedInIcon} alt = "LinkedIn"/>LinkedIn</a>
+        <a href = "https://github.com/eky2429"><img className = "icon" src = {githubIcon} alt = "GitHub"/> Github</a>
+      </div>
 
       <footer>
       <p>Icons by <a href = "icons8.com">Icons8</a>.</p>
