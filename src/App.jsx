@@ -11,6 +11,8 @@ import locationIcon from "./assets/location_icon.svg"
 import linkedInIcon from "./assets/icons8-linkedin.svg"
 import githubIcon from "./assets/icons8-github.svg"
 
+import {EMAIL_ADDRESS, PHONE_NUMBER} from "./PSData.jsx"
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -23,8 +25,8 @@ function App() {
         <h3>3rd year student at UIC studying Computer Science</h3>
       </nav>
       <div className='buttons'>
-        <a href = "tel:773-837-5914"><img className = "icon" src = {phoneIcon} alt = "Phone number"/>773-837-5914</a>
-        <a href = "mailto:eky2429@gmail.com"><img className = "icon" src = {emailIcon} alt = "Email"/>Email</a>
+        <a href = "tel:"><img className = "icon" src = {phoneIcon} alt = "Phone number"/>{PHONE_NUMBER}</a>
+        <a href = {`mailto:${EMAIL_ADDRESS}`}><img className = "icon" src = {emailIcon} alt = "Email"/>Email</a>
         <a href = "https://ethan-ky-site.onrender.com/"><img className = "icon" src = {netIcon} alt = "Official Site"/>Website</a>
         <a href = "https://www.google.com/search?q=Illinois"><img className = "icon"src = {locationIcon} alt = "Location"/>Illinois</a>
 
